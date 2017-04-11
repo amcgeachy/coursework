@@ -1,0 +1,68 @@
+#exercise 1.1
+#open python interpreter, what does the command do
+
+In [1]: 3+1
+Out[1]: 4
+#add 
+
+In [2]: 3*3
+Out[2]: 9
+#multiply
+
+In [3]: 2 ** 3
+Out[3]: 8
+#exponent
+
+In [4]: "Hello, world!"
+Out[4]: 'Hello, world!'
+#returns the string
+In [5]:
+
+#exercise 1.3
+#more interpreter
+
+In [5]: 'py' + 'thon'
+Out[5]: 'python'
+#combines the strings
+
+In [6]: 'py' * 3 + 'thon'
+Out[6]: 'pypypython'
+#repeats the first string 3 times, then adds the next string
+
+In [7]: 'py' - 'py'
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-7-4fb77fdd0ed6> in <module>()
+----> 1 'py' - 'py'
+#but can't math with strings
+
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
+In [8]: '3'+3
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-8-41594ee27276> in <module>()
+----> 1 '3'+3
+#'3' is a string. no math.
+
+TypeError: Can't convert 'int' object to str implicitly
+
+In [9]: 3*'3'
+Out[9]: '333'
+#but it can be multiplied as a string
+
+In [10]: a
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-10-60b725f10c9c> in <module>()
+----> 1 a
+
+NameError: name 'a' is not defined
+#error because its not a standard variable and we didnt define it
+
+In [11]: a=3
+#defining the variable
+
+In [12]: a
+Out[12]: 3
+#getting the variable value returned
